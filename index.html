@@ -1,13 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/main.js"></script>
     </head>
     <body>
-        <div class="container">
-            Hello
+        <div class="container mt-5 text-center">
+            <h1 class="fw-normal text-center">Nil Network</h1>
+            <p class=" fw-normal text-center">@status</p>
+            <br>
+            <div class="">
+                <table class="table table-responsive table-hover table-bordered align-middle w-50 mx-auto">
+                    <tr title="Last Down: 21 Nov, 2020">
+                        <td class="fw-bold">
+                            Gradiento
+                        </td>
+                        <td class="table-success">
+                            Up & Running
+                        </td>
+                    </tr>
+                    <tr title="Last Down: 25 Dec, 2020">
+                        <td class="fw-bold">
+                            Nil 5tudio
+                        </td>
+                        <td class="table-success">
+                            Up & Running
+                        </td>
+                    </tr>
+                    <tr title="Last Down: 21 Nov, 2020">
+                        <td class="fw-bold">
+                            One Small Project
+                        </td>
+                        <td class="table-success">
+                            Up & Running
+                        </td>
+                    </tr>
+                    <tr title="Last Up: January, 2020">
+                        <td class="fw-bold">
+                            The Boring Magazine
+                        </td>
+                        <td class="table-danger">
+                            Down
+                        </td>
+                    </tr>
+                    <tr title="Expected Launch: Jan, 2022">
+                        <td class="fw-bold">
+                                The Nil Way Podcast
+                        </td>
+                        <td class="table-primary">
+                                Under Development
+                        </td>
+                    </tr>
+                    <tr title="Expected Launch: May, 2021">
+                        <td class="fw-bold">
+                                Visitar
+                        </td>
+                        <td class="table-primary">
+                                Under Development
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <p id="dati"></p>
         </div>
     </body>
+    <script>
+        var d = new Date();
+        document.getElementById("dati").innerHTML = d;
+    </script>
 </html>
